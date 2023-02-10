@@ -1,0 +1,102 @@
+body {
+    background-image: url(a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: auto;
+}
+
+.box {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* animation-name: harry1; */
+    animation-name: harry2;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    /* animation-fill-mode: alternate; */
+    /* animation-timing-function: ease-in-out; */
+    /* animation-delay: 3s; */
+    /* animation-direction: reverse;  */
+    /* These properties can be set using this shorthand */
+    /* animation: animation-name animation-duration animation-timing-function animation-delay animation-iteration-count animation-fill-mode; */
+    /* animation: harry 5s ease-in 1s 12 backwards; */
+}
+
+#box1 {
+    width: 200px;
+    height: 166px;
+}
+
+.container img {
+    width: 90px;
+    height: 90px;
+}
+
+@keyframes harry2 {
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+    25% {
+        top: 150px;
+        left: 0px;
+    }
+    75% {
+        top: 150px;
+        left: 150px;
+    }
+    100% {
+        top: 0px;
+        left: 150px;
+    }
+}
+
+@keyframes harry1 {
+    from {
+        width: 200px;
+    }
+    to {
+        width: 1400px;
+    }
+}
+
+.container ul li {
+    box-shadow: 4px black;
+    text-align: right;
+    display: inline;
+    margin: 188px 8px;
+    padding: 5px 5px;
+}
+
+.container ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 2px -4px;
+    margin: 15px 10px;
+}
+
+.navbar a:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+    float: right;
+    display: block;
+    margin: 27px 13px;
+}
+
+.card1 {
+    padding: 23px 12px;
+    margin: 23px 12px;
+    /* border: 2px solid red; */
+    /* box-shadow: offset-x offset-y color; */
+    /* box-shadow: offset-x offset-y blur-radius color; */
+    /* box-shadow: offset-x offset-y blur-radius spread-radius color; */
+    /* box-shadow: 10px 13px green; */
+    /* box-shadow: -10px -13px green; */
+    /* box-shadow: 7px 5px 10px green;
+box-shadow: -7px -5px 10px green; */
+    /* box-shadow: -7px -5px 10px 34px green; */
+    /* box-shadow: -7px -5px 10px 34px rgba(71, 172, 172, 0.5); */
+}
